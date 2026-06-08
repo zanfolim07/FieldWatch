@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fieldwatch</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FieldWatch | Monitoramento Agrícola Inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">FieldWatch</a>
+      <button class="nav__toggle" id="navBtn" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="nav__icon">☰</span>
+      </button>
+      <ul class="nav__list" id="navMenu">
+        <li><a href="index.html"              class="nav__link nav__link--active">Início</a></li>
+        <li><a href="pages/integrantes.html"  class="nav__link">Quem somos</a></li>
+        <li><a href="pages/sobre.html"        class="nav__link">Sobre</a></li>
+        <li><a href="pages/faq.html"          class="nav__link">FAQ</a></li>
+        <li><a href="pages/contato.html"      class="nav__link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title">
+          Monitoramento Agrícola Inteligente por<br />
+          Satélite e Inteligência Artificial
+        </h1>
+        <p class="hero__desc">
+          Detecte secas, pragas, queimadas e necessidades de irrigação em tempo real para aumentar a produtividade e reduzir perdas no campo.
+        </p>
+        <p id="pageGreeting" class="hero__greeting"></p>
+        <a href="pages/sobre.html" class="btn btn--primary">Conheça a solução</a>
+      </div>
+    </section>
     
 </body>
 </html>
