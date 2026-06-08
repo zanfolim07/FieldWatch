@@ -1,11 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fieldwatch</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FieldWatch | Monitoramento Agrícola Inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">FieldWatch</a>
+      <button class="nav__toggle" id="navBtn" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="nav__icon">☰</span>
+      </button>
+      <ul class="nav__list" id="navMenu">
+        <li><a href="index.html"              class="nav__link nav__link--active">Início</a></li>
+        <li><a href="pages/integrantes.html"  class="nav__link">Quem somos</a></li>
+        <li><a href="pages/sobre.html"        class="nav__link">Sobre</a></li>
+        <li><a href="pages/faq.html"          class="nav__link">FAQ</a></li>
+        <li><a href="pages/contato.html"      class="nav__link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <h1 class="hero__title">
+          Monitoramento Agrícola Inteligente por<br />
+          Satélite e Inteligência Artificial
+        </h1>
+        <p class="hero__desc">
+          Detecte secas, pragas, queimadas e necessidades de irrigação em tempo real para aumentar a produtividade e reduzir perdas no campo.
+        </p>
+        <p id="pageGreeting" class="hero__greeting"></p>
+        <a href="pages/sobre.html" class="btn btn--primary">Conheça a solução</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features__grid">
+        <div class="features__image-wrap">
+          <img src="assets/banner-2.png"
+               alt="Agricultor com tablet monitorando lavoura com drone ao fundo"
+               class="features__image" />
+        </div>
+        <div class="features__text">
+          <h2 class="features__title">Inovação e tecnologia para você.</h2>
+          <p class="features__desc">
+            Utilizamos tecnologias avançadas para monitorar sua lavoura em tempo real, fornecendo dados precisos para uma gestão mais eficiente e segura.
+          </p>
+          <ul class="features__list">
+            <li class="features__item">
+              <span class="features__icon"><i class="fa-solid fa-circle-check"></i></span>
+              Monitoramento contínuo da área agrícola.
+            </li>
+            <li class="features__item">
+              <span class="features__icon"><i class="fa-solid fa-circle-check"></i></span>
+              Análise automática da saúde da plantação.
+            </li>
+            <li class="features__item">
+              <span class="features__icon"><i class="fa-solid fa-circle-check"></i></span>
+              Acompanhamento preciso de cada área da fazenda.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-bar">
+      <div class="container tech-bar__grid">
+        <div class="tech-bar__item"><i class="fa-solid fa-satellite tech-bar__icon"></i><span>Sentinel-2</span></div>
+        <div class="tech-bar__item"><i class="fa-brands fa-google tech-bar__icon"></i><span>Google Earth Engine</span></div>
+        <div class="tech-bar__item"><i class="fa-solid fa-gears tech-bar__icon"></i><span>Automação</span></div>
+        <div class="tech-bar__item"><i class="fa-solid fa-brain tech-bar__icon"></i><span>Inteligência Artificial</span></div>
+      </div>
+    </section>
+
+    <section class="value">
+      <div class="container value__grid">
+        <div>
+          <h2 class="value__title">A tecnologia que enxerga sua lavoura antes dos problemas aparecerem.</h2>
+        </div>
+        <div>
+          <p class="value__desc">
+            O projeto propõe uma plataforma agrícola inteligente que utiliza satélites, Inteligência Artificial e sensores para monitorar lavouras em tempo real. A solução auxilia produtores na identificação de riscos, na otimização de recursos e na tomada de decisões mais rápidas e eficientes.
+          </p>
+          <a href="pages/sobre.html" class="btn btn--dark">Ver mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ecosystem">
+      <div class="container">
+        <h2 class="ecosystem__title">Ecossistema Tecnológico<br/>da Plataforma</h2>
+        <div class="ecosystem__grid">
+
+          <article class="ecosystem__card">
+            <div class="ecosystem__card-img-wrap">
+              <img src="assets/img-satelite.png"
+                   alt="Satélite Sentinel-2 no espaço" class="ecosystem__card-img" />
+            </div>
+            <h3 class="ecosystem__card-title">Sentinel-2</h3>
+            <p class="ecosystem__card-desc">Monitoramento da lavoura por imagens de satélite.</p>
+          </article>
+
+          <article class="ecosystem__card">
+            <div class="ecosystem__card-img-wrap">
+              <img src="assets/img-google.png"
+                   alt="Google Earth Engine – processamento geoespacial" class="ecosystem__card-img" />
+            </div>
+            <h3 class="ecosystem__card-title">Google Earth Engine</h3>
+            <p class="ecosystem__card-desc">Processamento e análise de dados geoespaciais.</p>
+          </article>
+
+          <article class="ecosystem__card">
+            <div class="ecosystem__card-img-wrap">
+              <img src="assets/img-drone.png"
+                   alt="Drone de automação agrícola sobre plantação" class="ecosystem__card-img" />
+            </div>
+            <h3 class="ecosystem__card-title">Automação</h3>
+            <p class="ecosystem__card-desc">Ações automáticas baseadas em análises do sistema.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="cta-banner__overlay"></div>
+      <div class="container cta-banner__content"></div>
+    </section>
+
+  </main>
     
+    <footer class="footer">
+        <div class="container footer__inner">
+        <nav class="footer__nav">
+            <a href="index.html">Início</a>
+            <a href="pages/integrantes.html">Quem somos</a>
+            <a href="pages/sobre.html">Sobre</a>
+            <a href="pages/faq.html">FAQ</a>
+            <a href="pages/contato.html">Contato</a>
+        </nav>
+        <p class="footer__copy">© 2026 FieldWatch. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
