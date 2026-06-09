@@ -286,3 +286,18 @@ ul {
 .faq__card { background: #fff; border: none; border-radius: 10px; padding: 22px 24px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); }
 .faq__question { font-size: 13px; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; line-height: 1.4; }
 .faq__answer { font-size: 12.5px; color: #555; line-height: 1.75; }
+
+.contato { padding: 0 24px 80px; display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 580px; margin: 0 auto; }
+.contato__intro-desc { font-size: 13px; color: #555; line-height: 1.8; margin-bottom: 30px; }
+.contato__card { width: 100%; background: #fff; border: 1px solid #e0e4e0; border-radius: 12px; padding: 36px 32px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); text-align: left; }
+.contato__card-logo { font-size: 18px; font-weight: 700; color: #1a8f3a; margin-bottom: 28px; text-align: center; }
+.contato__form-group { display: flex; flex-direction: column; margin-bottom: 18px; }
+.contato__label { font-size: 12.5px; font-weight: 600; color: #333; margin-bottom: 6px; }
+.contato__input, .contato__textarea { font-family: 'Poppins', sans-serif; font-size: 13px; color: #333; background: #f7f8f7; border: 1px solid #d8ddd8; border-radius: 7px; padding: 10px 14px; outline: none; transition: border-color 0.2s; resize: none; }
+.contato__input::placeholder, .contato__textarea::placeholder { color: #aaa; }
+.contato__input:focus, .contato__textarea:focus { border-color: #3a8f3a; background: #fff; }
+.btn--submit { width: 100%; padding: 13px; background: #1a1a1a; color: #fff; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; border: none; border-radius: 7px; cursor: pointer; transition: background 0.2s, transform 0.15s; margin-top: 6px; }
+.btn--submit:hover { background: #2e2e2e; transform: translateY(-1px); }
+
+@media (max-width: 900px) { /* Header & Grid adjustments */ ... }
+@media (max-width: 768px) { /* Tablet & Mobile overrides */ ... }
