@@ -301,3 +301,18 @@ ul {
 
 @media (max-width: 900px) { /* Header & Grid adjustments */ }
 @media (max-width: 768px) { /* Tablet & Mobile overrides */ }
+
+.contato__message {
+  margin-top: 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contato__message--success {
+  color: #1a8f3a;
+}
+
+.contato__message--error {
+  color: #c62828;
+}

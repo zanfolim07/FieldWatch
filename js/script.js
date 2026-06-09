@@ -28,4 +28,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     pageGreeting.textContent = saudacao;
   }
+
+    const contactForm = document.getElementById("contactForm");
+  const contatoMessage = document.getElementById("contatoMessage");
+
+  if (contactForm && contatoMessage) {
+    contactForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const email = document.getElementById("email").value.trim();
+      const nome = document.getElementById("nome").value.trim();
+      const mensagem = document.getElementById("mensagem").value.trim();
+
+      if (!email || !nome || !mensagem) {
+        contatoMessage.textContent = "Por favor, preencha todos os campos antes de enviar.";
+        contatoMessage.classList.remove("contato__message--success");
+        contatoMessage.classList.add("contato__message--error");
+        return;
+      }
+
+      if (!email.includes("@") || !email.includes(".")) {
+        contatoMessage.textContent = "Digite um e-mail válido.";
+        contatoMessage.classList.remove("contato__message--success");
+        contatoMessage.classList.add("contato__message--error");
+        return;
+      }
+
+      contatoMessage.textContent = "Mensagem enviada com sucesso! Em breve entraremos em contato.";
+      contatoMessage.classList.remove("contato__message--error");
+      contatoMessage.classList.add("contato__message--success");
+
+      contactForm.reset();
+    });
+  }
 });
