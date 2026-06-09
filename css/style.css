@@ -254,3 +254,35 @@ ul {
 .cta-banner { position: relative; min-height: 260px; background: url('../assets/satelite-img-2.png') center/cover no-repeat; display: flex; align-items: center; }
 .cta-banner__overlay { position: absolute; inset: 0; background: rgba(5, 15, 5, 0.60); }
 .cta-banner__content { position: relative; z-index: 2; }
+
+.footer { background: #fff; padding: 32px 0 20px; }
+.footer__inner { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.footer__nav { display: flex; gap: 28px; flex-wrap: wrap; justify-content: center; }
+.footer__nav a { font-size: 13px; color: #444; font-weight: 500; transition: color 0.2s; }
+.footer__nav a:hover { color: #1a1a1a; }
+.footer__copy { font-size: 12px; color: #888; }
+
+.page-header { padding: 64px 24px 40px; text-align: center; }
+.page-header__title { font-size: 30px; font-weight: 700; color: #1a1a1a; margin-bottom: 14px; }
+.page-header__desc { font-size: 13.5px; color: #555; max-width: 620px; margin: 0 auto; line-height: 1.8; }
+
+.qs-team { padding: 20px 24px 80px; }
+.qs-team__grid { display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; }
+.qs-team__card { display: flex; flex-direction: column; align-items: center; text-align: center; width: 160px; }
+.qs-team__avatar { width: 96px; height: 96px; border-radius: 50%; overflow: hidden; margin-bottom: 14px; border: 3px solid #e0e0e0; }
+.qs-team__avatar img { width: 100%; height: 100%; object-fit: cover; }
+.qs-team__name { font-size: 12.5px; font-weight: 600; color: #1a1a1a; margin-bottom: 10px; line-height: 1.4; }
+.qs-team__socials { display: flex; gap: 12px; margin-bottom: 8px; }
+.qs-team__socials a { display: flex; align-items: center; justify-content: center; width: auto; height: auto; background: transparent; color: #1a8f3a; font-size: 20px; transition: color 0.2s, transform 0.2s; }
+.qs-team__socials a:hover { color: #156b2c; transform: scale(1.1); }
+.qs-team__ra { font-size: 11px; color: #888; }
+
+.sobre { padding: 0 24px 80px; max-width: 800px; margin: 0 auto; }
+.sobre__body { display: flex; flex-direction: column; gap: 20px; }
+.sobre__body p { font-size: 13.5px; color: #333; line-height: 1.9; text-align: justify; }
+
+.faq { padding: 0 24px 80px; }
+.faq__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1100px; margin: 0 auto; }
+.faq__card { background: #fff; border: none; border-radius: 10px; padding: 22px 24px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); }
+.faq__question { font-size: 13px; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; line-height: 1.4; }
+.faq__answer { font-size: 12.5px; color: #555; line-height: 1.75; }
