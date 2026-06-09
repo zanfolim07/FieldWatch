@@ -169,3 +169,54 @@ ul {
   font-size: 20px;
   line-height: 1;
 }
+
+.page-main {
+  min-height: calc(100vh - 130px);
+}
+
+.hero {
+  position: relative;
+  min-height: 460px;
+  background: url('../assets/banner-principal.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 120px 0 80px;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(10, 25, 10, 0.82) 0%,
+    rgba(10, 25, 10, 0.50) 55%,
+    rgba(10, 25, 10, 0.15) 100%
+  );
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: 500px;
+}
+
+.hero__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.35;
+  margin-bottom: 14px;
+}
+
+.hero__desc {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 24px;
+  max-width: 380px;
+}
+
+.hero__greeting {
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.92);
+}
