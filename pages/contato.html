@@ -28,6 +28,42 @@
     </nav>
   </header>
 
+  <main class="page-main">
+
+    <div class="page-header">
+      <h1 class="page-header__title">Contato</h1>
+      <p class="page-header__desc">
+        Estamos aqui para ouvir você. Seja para tirar dúvidas, enviar sugestões ou resolver qualquer problema, nossa equipe está pronta para ajudar e garantir a melhor experiência possível na plataforma.
+      </p>
+    </div>
+
+    <section class="contato">
+
+      <div class="contato__card">
+        <h2 class="contato__card-logo">FieldWatch</h2>
+
+        <div class="contato__form-group">
+          <label class="contato__label" for="email">Email:</label>
+          <input class="contato__input" type="email" id="email" name="email" placeholder="m@example.com" />
+        </div>
+
+        <div class="contato__form-group">
+          <label class="contato__label" for="nome">Nome completo:</label>
+          <input class="contato__input" type="text" id="nome" name="nome" placeholder="Seu Nome" />
+        </div>
+
+        <div class="contato__form-group">
+          <label class="contato__label" for="mensagem">Mensagem:</label>
+          <textarea class="contato__textarea" id="mensagem" name="mensagem" placeholder="Mensagem" rows="5"></textarea>
+        </div>
+
+        <button class="btn btn--submit" type="button">Enviar</button>
+        <div id="contatoMessage" class="contato__message" aria-live="polite"></div>
+      </div>
+    </section>
+
+  </main>
+
 
 
   <script src="../js/script.js"></script>
