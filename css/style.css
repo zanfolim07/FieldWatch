@@ -299,5 +299,5 @@ ul {
 .btn--submit { width: 100%; padding: 13px; background: #1a1a1a; color: #fff; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; border: none; border-radius: 7px; cursor: pointer; transition: background 0.2s, transform 0.15s; margin-top: 6px; }
 .btn--submit:hover { background: #2e2e2e; transform: translateY(-1px); }
 
-@media (max-width: 900px) { /* Header & Grid adjustments */ ... }
-@media (max-width: 768px) { /* Tablet & Mobile overrides */ ... }
+@media (max-width: 900px) { /* Header & Grid adjustments */ }
+@media (max-width: 768px) { /* Tablet & Mobile overrides */ }
