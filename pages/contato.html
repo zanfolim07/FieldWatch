@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FieldWatch | Contato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<header class="header header--light">
+    <nav class="nav container">
+      <a href="../index.html" class="nav__logo nav__logo--green">FieldWatch</a>
+      <button class="nav__toggle" id="navBtn" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="nav__icon">☰</span>
+      </button>
+      <ul class="nav__list" id="navMenu">
+        <li><a href="../index.html"    class="nav__link nav__link--dark">Início</a></li>
+        <li><a href="integrantes.html" class="nav__link nav__link--dark">Quem somos</a></li>
+        <li><a href="sobre.html"       class="nav__link nav__link--dark">Sobre</a></li>
+        <li><a href="faq.html"         class="nav__link nav__link--dark">FAQ</a></li>
+        <li><a href="contato.html"     class="nav__link nav__link--dark nav__link--active">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <div class="page-header">
+      <h1 class="page-header__title">Contato</h1>
+      <p class="page-header__desc">
+        Estamos aqui para ouvir você. Seja para tirar dúvidas, enviar sugestões ou resolver qualquer problema, nossa equipe está pronta para ajudar e garantir a melhor experiência possível na plataforma.
+      </p>
+    </div>
+
+    <section class="contato">
+
+      <div class="contato__card">
+        <h2 class="contato__card-logo">FieldWatch</h2>
+
+        <div class="contato__form-group">
+          <label class="contato__label" for="email">Email:</label>
+          <input class="contato__input" type="email" id="email" name="email" placeholder="m@example.com" />
+        </div>
+
+        <div class="contato__form-group">
+          <label class="contato__label" for="nome">Nome completo:</label>
+          <input class="contato__input" type="text" id="nome" name="nome" placeholder="Seu Nome" />
+        </div>
+
+        <div class="contato__form-group">
+          <label class="contato__label" for="mensagem">Mensagem:</label>
+          <textarea class="contato__textarea" id="mensagem" name="mensagem" placeholder="Mensagem" rows="5"></textarea>
+        </div>
+
+        <button class="btn btn--submit" type="button">Enviar</button>
+        <div id="contatoMessage" class="contato__message" aria-live="polite"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <nav class="footer__nav">
+        <a href="../index.html">Início</a>
+        <a href="integrantes.html">Quem somos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <p class="footer__copy">© 2026 FieldWatch. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
