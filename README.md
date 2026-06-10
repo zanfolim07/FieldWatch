@@ -49,6 +49,8 @@ O objetivo do projeto é oferecer uma solução tecnológica para produtores rur
 
 ## Estrutura de pastas
 
+## Estrutura de pastas
+
 ```text
 /
 ├── index.html
@@ -58,7 +60,18 @@ O objetivo do projeto é oferecer uma solução tecnológica para produtores rur
 ├── js/
 │   └── script.js
 ├── assets/
-│   └── prototipo/
+│   ├── banner-2.png
+│   ├── banner-principal.png
+│   ├── banner.png
+│   ├── dashboard.jpeg
+│   ├── fieldbot-chat.jpeg
+│   ├── irrigacao.jpeg
+│   ├── mapa-prioridade.jpeg
+│   ├── telegram-audio.jpeg
+│   ├── img-satelite.png
+│   ├── img-google.png
+│   ├── img-drone.png
+│   └── fotos dos integrantes
 └── pages/
     ├── integrantes.html
     ├── sobre.html
