@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FieldWatch | FieldBot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header class="header header--light">
+    <nav class="nav container">
+      <a href="../index.html" class="nav__logo nav__logo--green">FieldWatch</a>
+
+      <button class="nav__toggle" id="navBtn" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="nav__icon">☰</span>
+      </button>
+
+      <ul class="nav__list" id="navMenu">
+        <li><a href="../index.html" class="nav__link nav__link--dark">Início</a></li>
+        <li><a href="integrantes.html" class="nav__link nav__link--dark">Quem somos</a></li>
+        <li><a href="sobre.html" class="nav__link nav__link--dark">Sobre</a></li>
+        <li><a href="monitoramento.html" class="nav__link nav__link--dark">Monitoramento</a></li>
+        <li><a href="fieldbot.html" class="nav__link nav__link--dark nav__link--active">FieldBot</a></li>
+        <li><a href="faq.html" class="nav__link nav__link--dark">FAQ</a></li>
+        <li><a href="contato.html" class="nav__link nav__link--dark">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <div class="page-header">
+      <h1 class="page-header__title">FieldBot</h1>
+      <p class="page-header__desc">
+        O assistente inteligente da FieldWatch que transforma dados agrícolas em respostas simples, rápidas e acessíveis.
+      </p>
+    </div>
+
+    <section class="solution-page container">
+
+      <div class="solution-page__intro">
+        <div>
+          <h2>Consultor IA para o produtor rural</h2>
+          <p>
+            O FieldBot permite que o produtor converse com a plataforma usando linguagem natural. Ele pode consultar alertas, verificar talhões, pedir relatórios, analisar riscos e receber recomendações de irrigação.
+          </p>
+        </div>
+
+        <div class="solution-page__highlight">
+          <i class="fa-solid fa-robot"></i>
+          <span class="solution-page__label">Chatbot inteligente</span>
+        </div>
+      </div>
+
+      <div class="solution-cards">
+
+        <article class="solution-card">
+          <i class="fa-solid fa-comments"></i>
+          <h3>Conversa natural</h3>
+          <p>O produtor pode perguntar sobre clima, irrigação, alertas e saúde da lavoura de forma simples.</p>
+        </article>
+
+        <article class="solution-card">
+          <i class="fa-solid fa-microphone"></i>
+          <h3>Comandos de voz</h3>
+          <p>Com STT, o usuário pode enviar mensagens de voz para o bot interpretar e responder.</p>
+        </article>
+
+        <article class="solution-card">
+          <i class="fa-solid fa-volume-high"></i>
+          <h3>Resposta em áudio</h3>
+          <p>Com TTS, o FieldBot também pode responder em áudio, tornando o sistema mais acessível.</p>
+        </article>
+
+      </div>
+
+      <section class="prototype-section">
+        <div class="prototype-section__text">
+          <h2>Atendimento inteligente</h2>
+          <p>
+            O FieldBot analisa os dados da propriedade e responde com recomendações práticas. Ele pode informar, por exemplo, quando um talhão apresenta risco de estresse hídrico ou possível queimada.
+          </p>
+
+          <ul class="solution-list">
+            <li>Consulta da saúde da lavoura;</li>
+            <li>Alertas de risco por talhão;</li>
+            <li>Recomendação de irrigação;</li>
+            <li>Geração de relatórios;</li>
+            <li>Atendimento via Telegram e Webchat.</li>
+          </ul>
+        </div>
+
+        <div class="prototype-section__image">
+          <img src="../assets/fieldbot-chat.jpeg" alt="Protótipo do chatbot FieldBot" />
+        </div>
+      </section>
+
+      <section class="chat-demo">
+        <h2>Exemplo de conversa</h2>
+
+        <div class="chat-demo__box">
+          <div class="chat-demo__message chat-demo__message--bot">
+            <strong>FieldBot:</strong>
+            Olá! Sou o FieldBot. Vi que há alertas ativos na sua fazenda hoje. Como posso ajudar?
+          </div>
+
+          <div class="chat-demo__message chat-demo__message--user">
+            <strong>Produtor:</strong>
+            Qual a situação do Talhão 5?
+          </div>
+
+          <div class="chat-demo__message chat-demo__message--bot">
+            <strong>FieldBot:</strong>
+            O Talhão 5 está em alerta urgente. O NDVI está baixo, o NDWI está crítico e há risco de estresse hídrico. Recomendo acionar a irrigação e inspecionar o local.
+          </div>
+
+          <div class="chat-demo__message chat-demo__message--user">
+            <strong>Produtor:</strong>
+            Sim, ativa a irrigação.
+          </div>
+
+          <div class="chat-demo__message chat-demo__message--bot">
+            <strong>FieldBot:</strong>
+            Irrigação do Talhão 5 ativada com sucesso. O sistema continuará monitorando a umidade do solo.
+          </div>
+        </div>
+      </section>
+
+      <section class="prototype-section prototype-section--reverse">
+        <div class="prototype-section__image">
+          <img src="../assets/telegram-audio.jpeg" alt="Demonstração do FieldBot no Telegram" />
+        </div>
+
+        <div class="prototype-section__text">
+          <h2>Integração com Telegram</h2>
+          <p>
+            Além do Webchat, o FieldBot também pode ser acessado pelo Telegram. A integração permite consultas por texto e áudio, utilizando IBM Watson Assistant, Speech to Text, Text to Speech e Node-RED.
+          </p>
+
+          <div class="tech-tags">
+            <span>Watson Assistant</span>
+            <span>Node-RED</span>
+            <span>Telegram</span>
+            <span>STT</span>
+            <span>TTS</span>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <nav class="footer__nav">
+        <a href="../index.html">Início</a>
+        <a href="integrantes.html">Quem somos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="monitoramento.html">Monitoramento</a>
+        <a href="fieldbot.html">FieldBot</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <p class="footer__copy">© 2026 FieldWatch. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
