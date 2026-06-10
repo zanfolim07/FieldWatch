@@ -83,11 +83,14 @@ O objetivo do projeto é oferecer uma solução tecnológica para produtores rur
 
 ## Integrantes
 
-* Guilherme Zanfolim Nunes Farias — RM 570983
-* Lucas Monteiro Dias da Costa — RM 571388
-* Jaime Ringel — RM 562044
-* Fabio Cezare Almeida — RM 572642
-* Matheus Magalhães Romão de Moraes — RM 573371
+| Nome                              |     RM | GitHub                               | LinkedIn                                 |
+| --------------------------------- | -----: | ------------------------------------ | ---------------------------------------- |
+| Guilherme Zanfolim Nunes Farias   | 570983 | [LinkedIn](https://www.linkedin.com/in/guilherme-zanfolim-202865315) | [GitHub](https://github.com/zanfolim07) |
+| Lucas Monteiro Dias da Costa      | 571388 | [LinkedIn](https://www.linkedin.com/in/lucas-monteiro-1110703b5) | [GitHub](https://github.com/monteiroo5) |
+| Jaime Ringel                      | 562044 | [LinkedIn](https://www.linkedin.com/in/jaime-ringel-1060bb402) | [GitHub](https://github.com/jaimeringel004) |
+| Fabio Cezare Almeida              | 572642 | [LinkedIn](https://www.linkedin.com/in/fabio-cezare-almeida-4b448a408) | [GitHub](https://github.com/FabioCAlmeida) |
+| Matheus Magalhães Romão de Moraes | 573371 | [LinkedIn](https://www.linkedin.com/in/matheus-magalh%C3%A3es-ti) | [GitHub](https://github.com/MagalhaesMatheus007) |
+
 
 ## Como executar o projeto
 
