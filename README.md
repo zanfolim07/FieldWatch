@@ -83,7 +83,7 @@ O objetivo do projeto é oferecer uma solução tecnológica para produtores rur
 
 ## Integrantes
 
-| Nome                              |     RM | GitHub                               | LinkedIn                                 |
+| Nome                              |     RM | LinkedIn                               | GitHub                                 |
 | --------------------------------- | -----: | ------------------------------------ | ---------------------------------------- |
 | Guilherme Zanfolim Nunes Farias   | 570983 | [LinkedIn](https://www.linkedin.com/in/guilherme-zanfolim-202865315) | [GitHub](https://github.com/zanfolim07) |
 | Lucas Monteiro Dias da Costa      | 571388 | [LinkedIn](https://www.linkedin.com/in/lucas-monteiro-1110703b5) | [GitHub](https://github.com/monteiroo5) |
