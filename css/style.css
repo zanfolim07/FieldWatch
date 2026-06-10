@@ -194,25 +194,32 @@ ul {
   );
 }
 
+.hero .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .hero__content {
   position: relative;
   z-index: 2;
-  max-width: 500px;
+  max-width: 525px;
+  text-align: left;
+  margin-left: 0;
 }
 
 .hero__title {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 700;
   color: #fff;
-  line-height: 1.35;
+  line-height: 1.2;
   margin-bottom: 14px;
 }
 
 .hero__desc {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 24px;
-  max-width: 380px;
+  margin-bottom: 18px;
+  max-width: 500px;
 }
 
 .hero__greeting {
@@ -251,9 +258,27 @@ ul {
 .ecosystem__card-title { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
 .ecosystem__card-desc { font-size: 12px; color: #555; line-height: 1.6; }
 
-.cta-banner { position: relative; min-height: 260px; background: url('../assets/satelite-img-2.png') center/cover no-repeat; display: flex; align-items: center; }
-.cta-banner__overlay { position: absolute; inset: 0; background: rgba(5, 15, 5, 0.60); }
-.cta-banner__content { position: relative; z-index: 2; }
+.cta-banner {
+  position: relative;
+  min-height: 300px;
+  background-image: url('../assets/satelite-img-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 48%;
+  display: flex;
+  align-items: center;
+}
+
+.cta-banner__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 15, 5, 0.08);
+}
+
+.cta-banner__content {
+  position: relative;
+  z-index: 2;
+}
 
 .footer { background: #fff; padding: 32px 0 20px; }
 .footer__inner { display: flex; flex-direction: column; align-items: center; gap: 14px; }
@@ -353,6 +378,16 @@ ul {
     padding: 120px 0 70px;
   }
 
+  .hero .container {
+    justify-content: flex-start;
+  }
+
+  .hero__content {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
   .hero__title {
     font-size: 20px;
   }
@@ -360,6 +395,11 @@ ul {
   .ecosystem__grid,
   .faq__grid {
     grid-template-columns: 1fr;
+  }
+
+  .cta-banner {
+    min-height: 220px;
+    background-position: center;
   }
 
   .footer__nav {
